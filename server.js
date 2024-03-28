@@ -8,7 +8,7 @@ import productRoute from "./routes/productRoute.js"
 import categoryRoute from "./routes/categoryRoute.js"
 import orderRouter from "./routes/orderRoute.js"
 import "dotenv/config"
-import corsConfig from "./config/corsConfig.js"
+import { corsConfig } from "./config/corsConfig.js"
 
 const app = express()
 
